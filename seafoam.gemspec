@@ -24,9 +24,4 @@ Gem::Specification.new do |spec|
 
   # tsort stops being a default gem in Ruby 4.1.
   spec.add_dependency("tsort", "~> 0.2")
-
-  # rake < 13.2 requires ostruct, which is not a default gem in Ruby 4.
-  spec.add_development_dependency("rake", "~> 13.2")
-  spec.add_development_dependency("rspec", "~> 3.8")
-  spec.add_development_dependency("rubocop-shopify", ">= 3.0")
 end
